@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Select personalizado</title>
+</head>
+<body>
+       <div class="contenedor">
+        <div class="input-buscar">
+            <input type="search" id="inputBuscar">
+        </div>
+        <form action="">
+            <div class="selectbox">
+                <div class="select" id="select">
+                  <div class="contenido-select">
+                     <h1 class="titulo">Selecciona tu Pais</h1>
+                     <p class="descripción">Paises</p>
+                  </div>
+                  <span class="material-symbols-outlined">expand_more</span>
+                </div>
+
+                <!--Opciones-->
+                <div class="opciones" id="opciones">
+                    <a href="#" class="opcion">
+                        <div class="contenido-opcion">
+                            <img src="imagenes/italia.png" alt="">
+                            <div class="textos">
+                                <h2 class="titulo">Italia</h2>
+                                <p class="descripcion">lorem ipsum sit dum</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="opcion">
+                        <div class="contenido-opcion">
+                            <img src="imagenes/colombia.png" alt="">
+                            <div class="textos">
+                                <h2 class="titulo">Colombia</h2>
+                                <p class="descripcion">lorem ipsum sit dum</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="opcion">
+                        <div class="contenido-opcion">
+                            <img src="imagenes/reino-unido.png" alt="">
+                            <div class="textos">
+                                <h2 class="titulo">Reino unido</h2>
+                                <p class="descripcion">lorem ipsum sit dum</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="opcion">
+                        <div class="contenido-opcion">
+                            <img src="imagenes/alemania.png" alt="">
+                            <div class="textos">
+                                <h2 class="titulo">Alemania</h2>
+                                <p class="descripcion">lorem ipsum sit dum</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="opcion">
+                        <div class="contenido-opcion">
+                            <img src="imagenes/japon.png" alt="">
+                            <div class="textos">
+                                <h2 class="titulo">Japon</h2>
+                                <p class="descripcion">lorem ipsum sit dum</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <input type="hidden" name="pais" id="inputSelect" value="">
+        </form>
+       </div>
+       <script src="js/main.js"></script> 
+</body>
+</html>
